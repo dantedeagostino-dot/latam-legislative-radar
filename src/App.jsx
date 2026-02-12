@@ -151,7 +151,7 @@ function App() {
       <div className="fixed bottom-20 right-20 w-96 h-96 bg-accent-cyan/10 rounded-full blur-[120px] pointer-events-none"></div>
 
       <footer className="max-w-7xl mx-auto mt-20 pt-8 border-t border-white/5 text-center text-[10px] text-gray-600 uppercase tracking-[0.3em] pb-8">
-        LatAm Congress Radar // Technical Audit 2026 // Powered by Gemini
+        LatAm Congress Radar // Technical Audit 2026 // Powered by ColossusLab.Tech
       </footer>
     </div>
   );
