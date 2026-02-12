@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-deep: #050505;
+  --color-bg-card: #0d0d0d;
+  --color-accent-cyan: #00f2ff;
+  --color-accent-purple: #8b5cf6;
+  --color-text-main: #e5e7eb;
+  --color-border-glow: rgba(0, 242, 255, 0.15);
+
+  --font-tech: "Space Grotesk", sans-serif;
+  --font-sans: Inter, sans-serif;
+
+  --background-image-grid: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+/* Base styles using standard CSS and theme variables */
+body {
+  background-color: var(--color-bg-deep);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Component utilities */
+.bg-grid {
+  background-size: 40px 40px;
+  background-image: var(--background-image-grid);
+}
+
+.glass-card {
+  @apply bg-bg-card/70 backdrop-blur-md border border-white/5 transition-all duration-300;
+}
+
+.glass-card:hover {
+  @apply border-border-glow -translate-y-0.5;
+  box-shadow: 0 0 20px rgba(0, 242, 255, 0.05);
+}
+
+.glow-text {
+  text-shadow: 0 0 15px rgba(0, 242, 255, 0.3);
+}

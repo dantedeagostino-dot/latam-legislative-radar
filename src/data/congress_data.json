@@ -1,0 +1,266 @@
+[
+  {
+    "country": "Argentina",
+    "congress_name": "Congreso de la Nación",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "GDE (Gestión Documental Electrónica) - Expediente Legislativo.",
+        "public_portal": "Portal de Datos Abiertos y Visor de Expediente Electrónico.",
+        "data_layers": "Datos abiertos en JSON/XLS (Senado). Sin API pública unificada."
+      },
+      "legislative_flow": {
+        "digital_entry": "Sí, expediente 100% digital desde 2020.",
+        "remote_voting": "Sistema biométrico de votación remota (VPN) implementado en 2020."
+      },
+      "modernization": {
+        "ai_initiatives": "Programa de IA en el Senado para fortalecimiento legislativo.",
+        "rag_search": "No implementado públicamente."
+      }
+    },
+    "maturity_score": 8,
+    "radar_data": [85, 40, 75, 90, 80],
+    "links": ["https://www.congreso.gob.ar", "https://datos.gob.ar"]
+  },
+  {
+    "country": "Brasil",
+    "congress_name": "Congresso Nacional",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "Sistemas propios integrados con API pública robusta.",
+        "public_portal": "Portal de Dados Abertos (CKAN).",
+        "data_layers": "API REST completa para Cámara y Senado."
+      },
+      "legislative_flow": {
+        "digital_entry": "Sí, proceso legislativo altamente digitalizado.",
+        "remote_voting": "Sistema de Deliberación Remota (SDR) usado ampliamente."
+      },
+      "modernization": {
+        "ai_initiatives": "Proyecto Ulysses (IA para análisis y clasificación de propuestas).",
+        "rag_search": "Ulysses Chat (interno) y clasificación automática ciudadana."
+      }
+    },
+    "maturity_score": 9,
+    "radar_data": [95, 90, 95, 95, 90],
+    "links": ["https://www.camara.leg.br", "https://dadosabertos.camara.leg.br"]
+  },
+  {
+    "country": "Chile",
+    "congress_name": "Congreso Nacional",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "Sistemas de tramitación digital integrados (Ley 21.180).",
+        "public_portal": "Biblioteca del Congreso Nacional (BCN) digital.",
+        "data_layers": "Datos abiertos y comparador de leyes."
+      },
+      "legislative_flow": {
+        "digital_entry": "Sí, 'cero papel' como norma general.",
+        "remote_voting": "Habilitado y regulado para sesiones telemáticas."
+      },
+      "modernization": {
+        "ai_initiatives": "ArChileBot (Chatbot legislativo basado en IA).",
+        "rag_search": "Implementación piloto en BCN."
+      }
+    },
+    "maturity_score": 9,
+    "radar_data": [90, 85, 90, 90, 85],
+    "links": ["https://www.bcn.cl", "https://www.congreso.cl"]
+  },
+  {
+    "country": "Colombia",
+    "congress_name": "Congreso de la República",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "Gaceta del Congreso Digital.",
+        "public_portal": "Senado y Cámara con portales de transparencia.",
+        "data_layers": "Iniciativa 'Congreso Abierto' con datos en OGP."
+      },
+      "legislative_flow": {
+        "digital_entry": "Mixto, avanzando hacia digitalización total.",
+        "remote_voting": "Plataformas virtuales habilitadas post-pandemia."
+      },
+      "modernization": {
+        "ai_initiatives": "Comisión Accidental de IA y Laboratorios de Innovación (MiLAB).",
+        "rag_search": "No implementado."
+      }
+    },
+    "maturity_score": 7,
+    "radar_data": [70, 30, 75, 65, 70],
+    "links": ["https://www.senado.gov.co", "https://www.camara.gov.co"]
+  },
+  {
+    "country": "México",
+    "congress_name": "Congreso de la Unión",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "Sistema de Asistencia y Votación por Biometría.",
+        "public_portal": "Canal del Congreso (fuerte presencia multimedia).",
+        "data_layers": "Gaceta Parlamentaria Digital."
+      },
+      "legislative_flow": {
+        "digital_entry": "Gaceta digital, pero trámites internos mixtos.",
+        "remote_voting": "Voto a distancia mediante dispositivos móviles biométricos."
+      },
+      "modernization": {
+        "ai_initiatives": "Uso individual de legisladores (ChatGPT) y cursos técnicos de IA.",
+        "rag_search": "Propuestas de chats de IA para resumir iniciativas."
+      }
+    },
+    "maturity_score": 7,
+    "radar_data": [75, 40, 65, 80, 75],
+    "links": ["https://www.diputados.gob.mx", "https://www.senado.gob.mx"]
+  },
+  {
+    "country": "Perú",
+    "congress_name": "Congreso de la República",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "Sistema de Gestión Documental y Archivo Digital.",
+        "public_portal": "Portal del Congreso y Archivo Digital de la Legislación.",
+        "data_layers": "Expedientes Virtuales de Proyectos de Ley."
+      },
+      "legislative_flow": {
+        "digital_entry": "Mesa de Partes Virtual (24/7).",
+        "remote_voting": "Votación electrónica en hemiciclo y virtual."
+      },
+      "modernization": {
+        "ai_initiatives": "Legislación pro-IA, pero sin uso interno sistemático reportado.",
+        "rag_search": "No implementado."
+      }
+    },
+    "maturity_score": 6,
+    "radar_data": [65, 20, 60, 70, 60],
+    "links": ["https://www.congreso.gob.pe"]
+  },
+  {
+    "country": "Bolivia",
+    "congress_name": "Asamblea Legislativa Plurinacional",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "Tablets Bosch en curules (subutilizadas).",
+        "public_portal": "Web institucional básica.",
+        "data_layers": "Baja disponibilidad de datos abiertos estructurados."
+      },
+      "legislative_flow": {
+        "digital_entry": "Predominantemente papel.",
+        "remote_voting": "Infraestructura existe pero falta voluntad política/regulación."
+      },
+      "modernization": {
+        "ai_initiatives": "Piloto 'TuVotoSeguro' (Blockchain) en elecciones, no legislativo.",
+        "rag_search": "No implementado."
+      }
+    },
+    "maturity_score": 4,
+    "radar_data": [40, 10, 30, 50, 40],
+    "links": ["https://www.diputados.bo"]
+  },
+  {
+    "country": "Ecuador",
+    "congress_name": "Asamblea Nacional",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "Curul Electrónica (Gestión de sesiones).",
+        "public_portal": "Transmisión en tiempo real obligatoria por ley.",
+        "data_layers": "Ley de Transformación Digital obliga a firma electrónica."
+      },
+      "legislative_flow": {
+        "digital_entry": "Firma electrónica obligatoria para trámites.",
+        "remote_voting": "Permitido y regulado."
+      },
+      "modernization": {
+        "ai_initiatives": "Enfoque en Ciberseguridad y Gobernanza Digital.",
+        "rag_search": "No implementado."
+      }
+    },
+    "maturity_score": 7,
+    "radar_data": [70, 25, 65, 75, 70],
+    "links": ["https://www.asambleanacional.gob.ec"]
+  },
+  {
+    "country": "Paraguay",
+    "congress_name": "Congreso Nacional",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "SILpy (Sistema de Información Legislativa).",
+        "public_portal": "SILpy accesible al público.",
+        "data_layers": "Trazabilidad completa de proyectos."
+      },
+      "legislative_flow": {
+        "digital_entry": "Expediente Legislativo Digital.",
+        "remote_voting": "Implementado."
+      },
+      "modernization": {
+        "ai_initiatives": "Enfoque en transparencia y 'cero papel'.",
+        "rag_search": "No implementado."
+      }
+    },
+    "maturity_score": 6,
+    "radar_data": [65, 15, 70, 65, 60],
+    "links": ["http://silpy.congreso.gov.py"]
+  },
+  {
+    "country": "Venezuela",
+    "congress_name": "Asamblea Nacional",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "Sistemas administrativos en modernización.",
+        "public_portal": "Web institucional.",
+        "data_layers": "Digitalización de gacetas."
+      },
+      "legislative_flow": {
+        "digital_entry": "Impulso 'cero papel' reciente.",
+        "remote_voting": "No reportado extensivamente."
+      },
+      "modernization": {
+        "ai_initiatives": "Fuerte agenda legislativa sobre IA y Ciberseguridad (Soberanía Tecnológica).",
+        "rag_search": "No implementado."
+      }
+    },
+    "maturity_score": 5,
+    "radar_data": [50, 20, 40, 50, 45],
+    "links": ["https://www.asambleanacional.gob.ve"]
+  },
+  {
+    "country": "Costa Rica",
+    "congress_name": "Asamblea Legislativa",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "Sistema de Actas y Proyectos.",
+        "public_portal": "Portal de Parlamento Abierto.",
+        "data_layers": "Datos abiertos robustos."
+      },
+      "legislative_flow": {
+        "digital_entry": "Gestión digital avanzada.",
+        "remote_voting": "Regulado."
+      },
+      "modernization": {
+        "ai_initiatives": "Líder en Parlamento Abierto en la región.",
+        "rag_search": "No implementado."
+      }
+    },
+    "maturity_score": 8,
+    "radar_data": [85, 30, 90, 85, 80],
+    "links": ["https://www.asamblea.go.cr"]
+  },
+  {
+    "country": "República Dominicana",
+    "congress_name": "Congreso Nacional",
+    "diagnostic": {
+      "infrastructure": {
+        "core_system": "SIL (Sistema de Información Legislativa) en ambas cámaras.",
+        "public_portal": "Consulta pública de iniciativas.",
+        "data_layers": "Acervo digital histórico desde 1899."
+      },
+      "legislative_flow": {
+        "digital_entry": "Seguimiento digital desde origen hasta aprobación.",
+        "remote_voting": "Sistemas de asistencia biométrica."
+      },
+      "modernization": {
+        "ai_initiatives": "Digitalización de archivo histórico.",
+        "rag_search": "No implementado."
+      }
+    },
+    "maturity_score": 6,
+    "radar_data": [65, 15, 60, 70, 65],
+    "links": ["https://www.senadord.gob.do"]
+  }
+]
